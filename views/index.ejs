@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World's shittiest quiz</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<header>
+  		<h2>This is my quiz. There are many like it, but this one is mine.</h2>
+  	</header>
+
+  	<div id="prompt">
+  		<span class="prompt">This webpage is my first attempt at a single-page web application.</span>
+  		<span class="prompt">Over the course of the next few minutes I will ask you a series of questions. These questions will gauge your knowledge of me as a person. At the end of the quiz you will be provided with your score and, depending on said score, the satisfaction of knowing you understand the complex creature that is me.</span>
+			<h3 class="centered">Let's begin.</h3> 
+
+			<button id="continue" class="centered">Continue to the quiz</button></div>
+  	
+  	<div id="wrapper">
+
+  		<div class="question"></div>
+
+  		<div class="answers"></div>
+
+      <div id="result" class="hidden">
+      <span class="prompt">Well done. You made it through my extremely rigorous, three-question quiz. Incredible.</span>
+      <span class="prompt"></span>
+
+      <div class="score"></div>
+
+      </div>
+
+  		<button id="next1">Next question</button>
+      <button id="next2" class="hidden">Next question</button>
+      <button id="next3" class="hidden">Next question</button>
+
+  	</div>
+      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="/javascripts/scripts.js"></script>
+  </body>
+</html>
